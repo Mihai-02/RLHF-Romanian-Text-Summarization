@@ -1,6 +1,6 @@
 # Romanian Text Summarization with RLHF
 
-Abstractive summarization of Romanian Wikipedia articles using sequence-to-sequence models (BART, T5, GPT-2) fine-tuned with Reinforcement Learning from Human Feedback (RLHF).
+Abstractive summarization of Romanian Wikipedia articles using sequence-to-sequence models (BART, T5, GPT2) fine-tuned with Reinforcement Learning from Human Feedback (RLHF).
 
 College team project; my contributions are presented in the sections below.
 
@@ -31,14 +31,14 @@ The summarization models were wrapped with a custom value head for actor-critic 
 
 ## Teammate's Contributions
 
-- `initial_training.py` — supervised fine-tuning pipeline for BART/T5/GPT-2
-- `eda_dataset.ipynb`, `eda2.ipynb` — exploratory data analysis and construction of the human-annotated reward dataset
+- `initial_training.py`: supervised fine-tuning pipeline for BART/T5/GPT2
+- `eda_dataset.ipynb`, `eda2.ipynb`: exploratory data analysis and construction of the human-annotated reward dataset
 
 ## Models
 
-- [`Iulian277/ro-bart-1024`](https://huggingface.co/Iulian277/ro-bart-1024) — Romanian BART
-- [`BlackKakapo/t5-small-grammar-ro-root`](https://huggingface.co/BlackKakapo/t5-small-grammar-ro-root) — Romanian T5
-- [`readerbench/RoGPT2-medium`](https://huggingface.co/readerbench/RoGPT2-medium) - Romanian GPT2
+- [`Iulian277/ro-bart-1024`](https://huggingface.co/Iulian277/ro-bart-1024) Romanian BART
+- [`BlackKakapo/t5-small-grammar-ro-root`](https://huggingface.co/BlackKakapo/t5-small-grammar-ro-root): Romanian T5
+- [`readerbench/RoGPT2-medium`](https://huggingface.co/readerbench/RoGPT2-medium): Romanian GPT2
 
 ---
 
